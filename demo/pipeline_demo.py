@@ -19,8 +19,8 @@ if __name__ == '__main__':
     parser.add_argument('-c', '--cpu', action='store_true', help='Use cpu as the device.')
     args = parser.parse_args()
 
-    example_sentences = {"en": "Barack Obama was born in Hawaii.  He was elected president in 2008.",
-            "zh": "達沃斯世界經濟論壇是每年全球政商界領袖聚在一起的年度盛事。",
+    example_sentences = {"en": "Donald Trump will make America great again. He promised to build a wall for the security of all citizens.",
+            "zh": "從前有座山，山上有座廟，廟裡有個老和尚，帶著一個小和尚。有一天，小和尚下山去化緣，老和尚對他說，路邊的野花不要採。",
             "fr": "Van Gogh grandit au sein d'une famille de l'ancienne bourgeoisie. Il tente d'abord de faire carrière comme marchand d'art chez Goupil & C.",
             "vi": "Trận Trân Châu Cảng (hay Chiến dịch Hawaii theo cách gọi của Bộ Tổng tư lệnh Đế quốc Nhật Bản) là một đòn tấn công quân sự bất ngờ được Hải quân Nhật Bản thực hiện nhằm vào căn cứ hải quân của Hoa Kỳ tại Trân Châu Cảng thuộc tiểu bang Hawaii vào sáng Chủ Nhật, ngày 7 tháng 12 năm 1941, dẫn đến việc Hoa Kỳ sau đó quyết định tham gia vào hoạt động quân sự trong Chiến tranh thế giới thứ hai."}
 
